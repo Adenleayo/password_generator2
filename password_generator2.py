@@ -14,8 +14,8 @@ def generate_password():
         print('pls input weak,strong,verystrong to generate random password')    
         
     save = string.ascii_uppercase + string.ascii_lowercase + string.digits + string.punctuation
-    passwor = ''.join(random.choice(save)for i in range(length))
-    return passwor
+    password = ''.join(random.choice(save)for i in range(length))
+    return password
 
 
 new_password = generate_password()
